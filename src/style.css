@@ -1,0 +1,26 @@
+body {
+    background-image: url('https://simongyumolcs.hu/wp-content/uploads/2021/11/dio-1-1024x678.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 36px;
+    color: white;
+    text-shadow: 1px 1px black;
+
+  }
+
+  .eko {
+
+    font-size: 24px;
+    color: grey;
+    text-shadow: 1px 1px black;
+    padding-top: 5cm;
+    padding-right: 2cm;
+
+  }

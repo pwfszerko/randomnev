@@ -7,8 +7,7 @@ termekek.forEach((termekek) => {
     //console.log(termekek)
     let li = document.createElement('li')
     li.textContent = termekek
-    li.classList = ' ';
-    let div= document.createElement;
+    li.classList = 'list-group-item';
     
     ul.append (li)
 

@@ -1,19 +1,24 @@
 {
-  "name": "anim",
+  "name": "nodejstemplate",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "lite-server",
+    "builds": "copyfiles -u 1 src/*.{html,js,css} dist",
+    "buildb": "copyfiles -u 3 node_modules/bootstrap/dist/css/bootstrap.css dist",
+    "buildj": "copyfiles -u 3 node_modules/bootstrap/dist/js/bootstrap.js dist",
+    "build" : "npm-run-all builds buildb buildj"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "bootstrap": "^5.2.3"
   },
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "npm-run-all": "^4.1.5"
   }
 }
